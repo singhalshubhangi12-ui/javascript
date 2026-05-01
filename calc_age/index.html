@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculateAge</title>
+</head>
+<style>
+    body{
+         background:linear-gradient(to right,rgb(137, 137, 214), rgb(222, 94, 222));;
+          /* gradient  */
+        }
+    h1{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+       
+    }
+    .results{
+    margin-top: 20px;
+    padding: 15px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration:underline;
+}
+
+</style>
+<body>
+    <h1>Calculate Age</h1>
+    <div class="container">
+    <form>
+         <p><label>Current Year</label><input type="number" id="Currentyear"/></p>
+          <p><label>Birth Year</label><input type="number" id="Birthyear"/></p>
+          <button>submit</button>
+           <div class="results"></div>
+    </form>
+   
+    </div>
+</body>
+<script src="age.js"></script>
+</html>

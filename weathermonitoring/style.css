@@ -1,0 +1,75 @@
+body{
+    background: linear-gradient(to right,#00feba,#5b548a);
+
+}
+
+.card{
+    width: 90%;
+   color: aliceblue;
+   margin: 100px 0px;
+   height: 60px;
+   border-radius: 70px;
+   padding: 40px 35px;
+   text-align: center;
+}
+.search{
+    display:flex;
+justify-content:center;
+margin-bottom:20px;
+}
+.search input{
+border:none;
+outline:none;
+padding:12px;
+border-radius:25px;
+width:70%;
+font-size:16px;
+}
+button{
+    padding: 22px;
+    height: 10px;
+    width: 10px;
+    background: none;
+    border: none;
+    
+}
+.search button{
+border:none;
+width:45px;
+height:45px;
+margin-left:10px;
+border-radius:50%;
+}
+.response{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 30px;
+     text-shadow: 20px;
+     font-size: 30px;
+
+}
+.icon{
+ 
+width:170px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 520px;
+margin-bottom: 100px;
+text-align: center;
+
+}
+
+.temp{
+font-size:60px;
+font-weight:bold;
+text-align: center;
+}
+
+.city{
+font-size:30px;
+margin-bottom:20px;
+text-align: center;
+}

@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;   
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    margin: 5px;
+    border-radius: 25px;
+    border: none;
+    border-color:rgb(92, 33, 33) ;
+    font-size: 8vmin;
+    box-shadow: 20px;
+    color: rgb(123, 9, 9);
+    background-color: whitesmoke;
+}
+#reset-btn{
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 28px;
+    border-color: #385253;
+    font-size: 15px;
+    background-color: rgb(92, 33, 33);
+    color: white;
+
+}
+#winner{
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+.hide{
+    display: none;
+}
+.tic{
+    font-size: 50px;
+    color: rgb(123, 9, 9);
+    margin-top: 7px;
+}
